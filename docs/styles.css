@@ -53,21 +53,17 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #333;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  .dark-theme {
-    background-color: #333;
-    color: #ffffff;
   }
   #container {
     display: flex;
     height: 100vh;
   }
   #sidebar {
-    width: 200px;
-    background: #f4f4f4;
+    width: 220px;
+    background: #1f1f1f; /* Darker background for sidebar */
+    color: #ffffff;
     padding: 15px;
     height: 100%;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
@@ -81,26 +77,36 @@
   }
   #sidebar ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff; /* White text for sidebar links */
+    padding: 8px;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #sidebar ul li a:hover {
+    background-color: #444444; /* Add hover effect for better interactivity */
+    border-radius: 5px;
   }
   #content {
     flex-grow: 1;
-    padding: 20px;
-    position: relative;
+    padding: 30px;
   }
   iframe {
     width: 100%;
-    height: calc(100% - 50px);
+    height: calc(100vh - 60px); /* Adjust height to maintain spacing */
     border: none;
   }
-  button#theme-toggle {
-    padding: 10px;
-    cursor: pointer;
-    background-color: #333;
+  header {
+    background: #333;
     color: #fff;
-    border: none;
-    border-radius: 5px;
+    text-align: center;
+    padding: 15px 0;
   }
-  button#theme-toggle:hover {
-    background-color: #555;
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
