@@ -1,4 +1,4 @@
-# Introduction to TARSE: Intelligent Companion
+# TARS: Intelligent Companion
 
 ## Overview
 
