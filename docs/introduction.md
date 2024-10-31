@@ -1,3 +1,8 @@
+---
+layout: default
+title: Page Title
+---
+
 # TARS: Intelligent Companion
 
 ## Overview

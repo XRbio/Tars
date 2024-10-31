@@ -55,7 +55,7 @@ footer {
   padding: 20px 0; /* Extra spacing (prev 10px) */
   background: #000000; /* Black background for footer */
   color: #ffffff; /* White text for footer */
-  position: fixed; /* Instead of fixed, or adjust height dynamically and use static */
+  position: static; /* Instead of fixed, or adjust height dynamically and use static */
   bottom: 0;
   width: 100%;
 }
