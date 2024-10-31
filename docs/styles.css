@@ -136,12 +136,17 @@ footer {
 }
 
 #header-right {
+  display: flex; /* Display as flex to align the icons horizontally */
+  gap: 15px; /* Space between the icons */
+}
+
+#header-right a {
   color: #ffffff;
   font-size: 1.5em;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
-#header-right:hover {
+#header-right a:hover {
   color: #cccccc; /* Light grey for hover effect */
 }
