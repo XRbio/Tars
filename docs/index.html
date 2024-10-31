@@ -3,33 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Project Home</title>
 </head>
 <body>
+  <a href="{{ site.baseurl }}/index.html" id="home-button">
     <i class="fas fa-home"></i>
   </a>
   <div id="container">
     <div id="sidebar">
       <h2>TARS</h2>
       <ul>
-        <li><a href="introduction.html">Introduction</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="technical_specifications.html">Technical Specifications</a></li>
-        <li><a href="hardware.html">Hardware Specifications</a></li>
-        <li><a href="software.html">Software Specifications</a></li>
-        <li><a href="tech_insights.html">Tech Insight</a></li>
+        <li><a href="{{ site.baseurl }}/introduction.html">Introduction</a></li>
+        <li><a href="{{ site.baseurl }}/faq.html">FAQ</a></li>
+        <li><a href="{{ site.baseurl }}/technical_specifications.html">Technical Specifications</a></li>
+        <li><a href="{{ site.baseurl }}/hardware.html">Hardware Specifications</a></li>
+        <li><a href="{{ site.baseurl }}/software.html">Software Specifications</a></li>
+        <li><a href="{{ site.baseurl }}/tech_insights.html">Tech Insight</a></li>
       </ul>
     </div>
     <div id="content" style="text-align: center;">
       <div id="primary-design">
         <div class="image-container">
-          <img src="imgs/image_1.jpeg" alt="Primary Design 1" class="primary-image">
+          <img src="{{ site.baseurl }}/imgs/image_1.jpeg" alt="Primary Design 1" class="primary-image">
           <p class="image-description">TARS Design Concept 1: High-tech and accessible.</p>
         </div>
         <div class="image-container">
-          <img src="imgs/image_2.jpeg" alt="Primary Design 2" class="primary-image">
+          <img src="{{ site.baseurl }}/imgs/image_2.jpeg" alt="Primary Design 2" class="primary-image">
           <p class="image-description">TARS Design Concept 2: Streamlined and futuristic.</p>
         </div>
       </div>

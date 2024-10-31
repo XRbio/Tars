@@ -3,18 +3,13 @@ theme: null
 title: Home
 description: A GitHub Pages site similar to Project Aria Tools
 
-# plugins:
-#   - jekyll-toc
-#   - jekyll-seo-tag
+baseurl: "/tars_project" 
+
+url: "https://xrbio.github.io" 
 
 markdown: kramdown
 kramdown:
   input: GFM
-
-# toc:
-#   min_level: 2
-#   max_level: 6
-#   ordered_list: true
 
 include:
   - styles.css
