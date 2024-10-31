@@ -3,7 +3,7 @@ theme: null
 title: Home
 description: A GitHub Pages site similar to Project Aria Tools
 
-baseurl: "/tars_project" 
+baseurl: "/tars_project/docs" 
 
 url: "https://xrbio.github.io" 
 
