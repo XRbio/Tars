@@ -7,6 +7,8 @@ body {
 #container {
   display: flex;
   height: 100vh;
+  background-color: #000000; /* Set container background to black */
+  color: #ffffff; /* Set container text color to white */
 }
 #sidebar {
   width: 220px;
@@ -31,13 +33,14 @@ body {
   transition: background-color 0.3s ease-in-out;
 }
 #sidebar ul li a:hover {
-  background-color: #333333; /* Slightly lighter black for hover effect */
-  border-radius: 5px;
+  background-color: #222222; /* Slightly lighter black for hover effect - use this too #333333*/ 
+  border-radius: 3px; /* 5px*/
 }
 #content {
   flex-grow: 1;
   padding: 30px;
   color: #ffffff; /* Ensure content text is white */
+  background-color: #000000; /* Set content background to black */
 }
 iframe {
   width: 100%;
@@ -46,10 +49,10 @@ iframe {
 }
 footer {
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0; /* Extra spacing (prev 10px) */
   background: #000000; /* Black background for footer */
   color: #ffffff; /* White text for footer */
-  position: fixed;
+  position: static; /* Instead of fixed, or adjust height dynamically */
   bottom: 0;
   width: 100%;
 }
