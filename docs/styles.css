@@ -108,3 +108,38 @@ footer {
   z-index: 1000; /* Ensure it's on top of other elements */
 }
 
+#small-header {
+  width: 100%;
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  padding: 10px 0; /* Padding for spacing */
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Shadow to add depth */
+  position: sticky; /* Keep the header fixed on top */
+  top: 0;
+  z-index: 1000; /* Ensure the header is on top of other elements */
+}
+
+#header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Align with container width */
+  margin: 0 auto;
+  padding: 0 15px; /* Padding to match the rest of the content */
+}
+
+#header-left {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#header-right {
+  color: #ffffff;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+#header-right:hover {
+  color: #cccccc; /* Light grey for hover effect */
+}
