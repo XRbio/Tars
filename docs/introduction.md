@@ -1,7 +1,5 @@
 # TARS: Intelligent Companion
 
-
-
 ## Overview
 
 We are a physical AI startup developing smart devices that serve as intelligent companions. Our mission is to create AI-powered wearables that go beyond traditional functionalities by deeply integrating into users' daily lives. Our devices are designed to be aware of users' physiological states and environments, offering proactive support to enhance well-being, focus, productivity, social interaction, and daily intellectual needs, all powered by our robust development platform.
