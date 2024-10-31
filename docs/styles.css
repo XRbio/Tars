@@ -97,7 +97,7 @@ footer {
 #home-button {
   position: fixed;
   top: 10px;
-  left: 10px;
+  right: 10px;
   font-size: 24px;
   color: #ffffff;
   text-decoration: none;
