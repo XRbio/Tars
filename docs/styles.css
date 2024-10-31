@@ -71,7 +71,7 @@ footer {
 
 .image-container {
   text-align: center;
-  max-width: 45%; /* Restrict image container size */
+  max-width: 30%; /* Restrict image container size */
 }
 
 .primary-image {
