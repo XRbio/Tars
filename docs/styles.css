@@ -11,6 +11,8 @@ body {
   /* height: 100vh; */
   background-color: #000000; /* Set container background to black */
   color: #ffffff; /* Set container text color to white */
+  max-width: 1200px; /* Set fixed width */
+  margin: 0 auto; /* Center the container */
 }
 #sidebar {
   width: 220px;
@@ -50,6 +52,15 @@ iframe {
   height: calc(100vh - 60px);
   border: none;
 }
+
+#right-sidebar {
+  width: 220px;
+  background: #000000; /* Black background for right sidebar */
+  color: #ffffff; /* White text for right sidebar */
+  padding: 15px;
+  box-shadow: -2px 0 5px rgba(255, 255, 255, 0.1); /* Lighter shadow for contrast */
+}
+
 footer {
   text-align: center;
   padding: 20px 0; /* Extra spacing (prev 10px) */
