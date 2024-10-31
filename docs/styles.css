@@ -75,7 +75,7 @@ footer {
 
 .image-container {
   text-align: center;
-  max-width: 30%; /* Restrict image container size */
+  max-width: 45%; /* Restrict image container size */
 }
 
 .primary-image {
@@ -126,11 +126,13 @@ footer {
   max-width: 1200px; /* Align with container width */
   margin: 0 auto;
   padding: 0 15px; /* Padding to match the rest of the content */
+  box-sizing: border-box; /* Ensure padding does not increase width */
 }
 
 #header-left {
   font-size: 1.2em;
   font-weight: bold;
+  flex-grow: 1; /* Pushes the GitHub icon to the far right */
 }
 
 #header-right {
