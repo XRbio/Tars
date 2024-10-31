@@ -1,10 +1,10 @@
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 title: My Project Name
 description: A GitHub Pages site similar to Project Aria Tools
 
-plugins:
-  - jekyll-toc
-  - jekyll-seo-tag
+# plugins:
+#   - jekyll-toc
+#   - jekyll-seo-tag
 
 markdown: kramdown
 kramdown:
