@@ -56,3 +56,36 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+#primary-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.primary-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.image-description {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  #primary-design {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
