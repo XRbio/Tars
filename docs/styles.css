@@ -46,7 +46,7 @@ body {
   color: #ffffff; /* Ensure content text is white */
   background-color: #000000; /* Set content background to black */
   overflow-y: auto;
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 iframe {
   width: 100%;
