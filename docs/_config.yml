@@ -7,5 +7,5 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-# include:
-#   - styles.css
+include:
+  - styles.css
