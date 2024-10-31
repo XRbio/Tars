@@ -1,4 +1,5 @@
 # theme: jekyll-theme-cayman
+theme: null
 title: Home
 description: A GitHub Pages site similar to Project Aria Tools
 
@@ -10,7 +11,10 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-toc:
-  min_level: 2
-  max_level: 6
-  ordered_list: true
+# toc:
+#   min_level: 2
+#   max_level: 6
+#   ordered_list: true
+
+include:
+  - styles.css
