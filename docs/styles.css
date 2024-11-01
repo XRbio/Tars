@@ -1,7 +1,6 @@
 
 #small-header {
   width: 100%;
-  /* background-color: #000000; */
   background-color: rgba(0, 0, 0, 0.8); /* Add transparency */
   color: #ffffff; /* White text */
   padding: 10px 0; /* Padding for spacing */
@@ -16,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px; /* Align with container width */
+  max-width: 800px; /* Align with container width */
   margin: 0 auto;
   padding: 0 15px; /* Padding to match the rest of the content */
   box-sizing: border-box; /* Ensure padding does not increase width */
@@ -25,7 +24,6 @@
 #header-left {
   font-size: 1.2em;
   font-weight: bold;
-  flex-grow: 1; /* Pushes the GitHub icon to the far right */
 }
 
 #header-right {
