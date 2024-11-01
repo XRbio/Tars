@@ -1,10 +1,9 @@
 
 #small-header {
   width: 100%;
-  /* background-color: #000000; */
   background-color: rgba(0, 0, 0, 0.8); /* Add transparency */
-  color: #ffffff; /* White text */
-  padding: 10px 0; /* Padding for spacing */
+  color: #ffffff; 
+  padding: 10px 0;
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Shadow to add depth */
   position: sticky; /* Keep the header fixed on top */
   top: 0;
@@ -158,13 +157,3 @@ footer {
   width: 100%;
   margin-top: auto; /* Push footer to the bottom */
 }
-
-/* #home-button {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  color: #ffffff;
-  text-decoration: none;
-  z-index: 1000;
-} */
