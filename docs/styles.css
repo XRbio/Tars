@@ -59,8 +59,9 @@ body {
   color: #ffffff; 
   max-width: 1200px; 
   margin: 0 auto; /* Center the container */
-  flex-direction: column;
   min-height: calc(100vh - 60px); /* Adjust to leave space for header/footer */
+  flex-direction: row; /* Ensure it is set to row for proper flex behavior */
+  align-items: stretch; /* Stretches the children to fill the container height */
 }
 
 #sidebar {
@@ -68,8 +69,8 @@ body {
   background: #000000; /* Black background for sidebar */
   color: #ffffff; /* White text for sidebar */
   padding: 15px;
-  /* height: 100%; */
   box-shadow: 2px 0 5px rgba(255, 255, 255, 0.1); /* Lighter shadow for contrast */
+  border-right: 2px solid rgba(255, 255, 255, 0.2); /* Creates a vertical line on the right */
 }
 #sidebar ul {
   list-style: none;
