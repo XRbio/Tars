@@ -117,13 +117,15 @@ footer {
 
 #small-header {
   width: 100%;
-  background-color: #000000; /* Black background */
+  /* background-color: #000000; */
+  background-color: rgba(0, 0, 0, 0.8); /* Add transparency */
   color: #ffffff; /* White text */
   padding: 10px 0; /* Padding for spacing */
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Shadow to add depth */
   position: sticky; /* Keep the header fixed on top */
   top: 0;
   z-index: 1000; /* Ensure the header is on top of other elements */
+  backdrop-filter: blur(5px); /* Blurs elements behind the header */
 }
 
 #header-content {
