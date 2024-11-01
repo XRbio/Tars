@@ -13,7 +13,10 @@ body {
   color: #ffffff; /* Set container text color to white */
   max-width: 1000px; /* Set fixed width */
   margin: 0 auto; /* Center the container */
+  flex-direction: column;
+  min-height: calc(100vh - 60px); /* Adjust to leave space for header/footer */
 }
+
 #sidebar {
   width: 220px;
   background: #000000; /* Black background for sidebar */
@@ -69,6 +72,7 @@ footer {
   position: static; /* Instead of fixed, or adjust height dynamically and use static */
   bottom: 0;
   width: 100%;
+  margin-top: auto; /* Push footer to the bottom */
 }
 
 #primary-design {
