@@ -76,9 +76,11 @@ body {
   list-style: none;
   padding: 0;
 }
+
 #sidebar ul li {
   margin-bottom: 10px;
 }
+
 #sidebar ul li a {
   text-decoration: none;
   color: #ffffff; /* White text for sidebar links */
@@ -98,14 +100,13 @@ body {
   border-radius: 3px; /* 5px*/
 }
 
-
 #content {
   flex-grow: 1;
   padding: 30px;
   color: #ffffff; /* Ensure content text is white */
   background-color: #000000; /* Set content background to black */
   overflow-y: auto;
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 iframe {
   width: 100%;
