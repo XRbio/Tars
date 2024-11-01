@@ -1,6 +1,7 @@
 
 #small-header {
   width: 100%;
+  /* background-color: #000000; */
   background-color: rgba(0, 0, 0, 0.8); /* Add transparency */
   color: #ffffff; /* White text */
   padding: 10px 0; /* Padding for spacing */
@@ -15,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 800px; /* Align with container width */
+  max-width: 1200px; /* Align with container width */
   margin: 0 auto;
   padding: 0 15px; /* Padding to match the rest of the content */
   box-sizing: border-box; /* Ensure padding does not increase width */
@@ -24,6 +25,7 @@
 #header-left {
   font-size: 1.2em;
   font-weight: bold;
+  flex-grow: 1; /* Pushes the GitHub icon to the far right */
 }
 
 #header-right {
@@ -42,6 +44,7 @@
   color: #cccccc; /* Light grey for hover effect */
 }
 
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -49,21 +52,21 @@ body {
   color: #ffffff; /* Set text color to white */
   margin: 0;
   padding: 0;
-  max-width: 1200px;
 }
 
 #container {
   display: flex;
+  /* height: 100vh; */
   background-color: #000000; /* Set container background to black */
   color: #ffffff; /* Set container text color to white */
   max-width: 1000px; /* Set fixed width */
-  margin: 20px auto; /* Center the container */
+  margin: 0 auto; /* Center the container */
   flex-direction: column;
   min-height: calc(100vh - 60px); /* Adjust to leave space for header/footer */
 }
 
 #sidebar {
-  width: 250px;
+  width: 220px;
   background: #000000; /* Black background for sidebar */
   color: #ffffff; /* White text for sidebar */
   padding: 15px;
@@ -104,9 +107,7 @@ body {
   background-color: #000000; /* Set content background to black */
   overflow-y: auto;
   max-width: 1000px;
-  margin: 600px;
 }
-
 iframe {
   width: 100%;
   height: calc(100vh - 60px);
@@ -157,7 +158,7 @@ footer {
   width: 100%;
   margin-top: auto; /* Push footer to the bottom */
 }
-/* 
+
 #home-button {
   position: fixed;
   top: 10px;
@@ -165,5 +166,5 @@ footer {
   font-size: 24px;
   color: #ffffff;
   text-decoration: none;
-  z-index: 1000; 
-} */
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
