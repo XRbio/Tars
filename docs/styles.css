@@ -52,6 +52,7 @@ body {
   color: #ffffff; /* Set text color to white */
   margin: 0;
   padding: 0;
+  max-width: 1200px;
 }
 
 #container {
@@ -60,13 +61,13 @@ body {
   background-color: #000000; /* Set container background to black */
   color: #ffffff; /* Set container text color to white */
   max-width: 1000px; /* Set fixed width */
-  margin: 0 auto; /* Center the container */
+  margin: 20px auto; /* Center the container */
   flex-direction: column;
   min-height: calc(100vh - 60px); /* Adjust to leave space for header/footer */
 }
 
 #sidebar {
-  width: 220px;
+  width: 250px;
   background: #000000; /* Black background for sidebar */
   color: #ffffff; /* White text for sidebar */
   padding: 15px;
@@ -107,7 +108,9 @@ body {
   background-color: #000000; /* Set content background to black */
   overflow-y: auto;
   max-width: 1000px;
+  margin: 600px;
 }
+
 iframe {
   width: 100%;
   height: calc(100vh - 60px);
