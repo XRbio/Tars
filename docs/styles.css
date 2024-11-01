@@ -56,10 +56,9 @@ body {
 
 #container {
   display: flex;
-  /* height: 100vh; */
   background-color: #000000; /* Set container background to black */
-  color: #ffffff; /* Set container text color to white */
-  max-width: 1000px; /* Set fixed width */
+  color: #ffffff; 
+  max-width: 1200px; 
   margin: 0 auto; /* Center the container */
   flex-direction: column;
   min-height: calc(100vh - 60px); /* Adjust to leave space for header/footer */
