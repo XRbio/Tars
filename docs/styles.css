@@ -42,7 +42,6 @@
   color: #cccccc; /* Light grey for hover effect */
 }
 
-
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -55,7 +54,6 @@ body {
 
 #container {
   display: flex;
-  /* height: 100vh; */
   background-color: #000000; /* Set container background to black */
   color: #ffffff; /* Set container text color to white */
   max-width: 1000px; /* Set fixed width */
