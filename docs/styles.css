@@ -36,6 +36,13 @@ body {
   display: block;
   transition: background-color 0.3s ease-in-out;
 }
+
+#sidebar ul li a.active {
+  background-color: #444444;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 #sidebar ul li a:hover {
   background-color: #222222; /* Slightly lighter black for hover effect - use this too #333333*/ 
   border-radius: 3px; /* 5px*/
