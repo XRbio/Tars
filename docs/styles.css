@@ -125,23 +125,7 @@ iframe {
 
 .image-container {
   text-align: center;
-  max-width: 45%; /* Restrict image container size */
-}
-
-.image-container textarea {
-  width: 100%; /* Makes the textarea take the full width of its parent */
-  height: 100px; /* Sets a fixed height for the textarea */
-  padding: 8px; /* Adds some padding inside the textarea */
-  margin-top: 10px; /* Adds space between the image description and the textarea */
-  box-sizing: border-box; /* Ensures padding does not affect the width */
-  border: 1px solid #ffffff; /* Gives a subtle border to the textarea */
-  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
-  color: #ffffff; /* White text color */
-  font-family: Arial, sans-serif; /* Matches the font of your body */
-}
-
-.image-container textarea::placeholder {
-  color: #cccccc; /* Lighter color for the placeholder text */
+  max-width: 70%; /* Restrict image container size */
 }
 
 .primary-image {
