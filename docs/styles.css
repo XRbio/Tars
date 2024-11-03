@@ -55,13 +55,14 @@ body {
 
 #container {
   display: flex;
-  background-color: #000000; /* Set container background to black */
-  color: #ffffff; 
-  max-width: 1200px; 
-  margin: 0 auto; /* Center the container */
-  min-height: calc(100vh - 60px); /* Adjust to leave space for header/footer */
-  flex-direction: row; /* Ensure it is set to row for proper flex behavior */
-  align-items: stretch; /* Stretches the children to fill the container height */
+  background-color: #000000;
+  color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: calc(100vh - 60px);
+  flex-direction: column; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 30px 15px; /* Space on smaller screens */
 }
 
 .get-started-button {
