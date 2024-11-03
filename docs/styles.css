@@ -120,6 +120,15 @@ body {
   display: block; /* Show submenu on hover */
 }
 
+.submenu li a {
+  text-decoration: none;
+  color: #cccccc; /* Slightly lighter color for submenu items */
+}
+
+.submenu li a:hover {
+  color: #ffffff; /* Change color on hover */
+}
+
 #sidebar ul {
   list-style: none;
   padding: 0;

@@ -218,4 +218,48 @@ styles.css
   }
 
   
+  _________________________________________
+  deafult.html 
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+  <title>{{ page.title | escape }}</title>
+</head>
+<body>
+  {% include _header.html %}
+  <!-- <a href="index.html" id="home-button" class="home-button"> -->
+  <a href="index.html" id="home-button" style="position: fixed; top: 10px; right: 10px; font-size: 24px; color: #ffffff; text-decoration: none;">
+    <i class="fas fa-home"></i>
+  </a>
   
+  <div id="container">
+    <div id="sidebar">
+        <ul>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="hardware.html">Hardware Specifications</a></li>
+          <li><a href="software.html">Software Specifications</a></li>
+          <li><a href="tech_insights.html">Tech Insight</a></li>
+          <li>
+            <a href="#" class="sidebar-parent">Agents</a>
+            <ul class="submenu">
+              <li><a href="tars.html">Tars</a></li>
+              <li><a href="case.html">Case</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    <div id="content">
+      {{ content }}
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Orai Project. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
