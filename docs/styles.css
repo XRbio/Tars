@@ -68,11 +68,11 @@ body {
   margin-top: 20px;
   padding: 15px 30px;
   font-size: 18px;
-  color: #007acc; /* Blue text color */
+  color: #ffffff; /* Blue text color */
   background-color: transparent; /* No background color */
   text-align: center;
   text-decoration: none;
-  border: 2px solid #007acc; /* Blue border */
+  border: 2px solid #ffffff; /* Blue border */
   border-radius: 8px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
