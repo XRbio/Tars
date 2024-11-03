@@ -78,7 +78,7 @@ body {
 }
 
 .get-started-button:hover {
-  background-color: #007bcc; /* Blue background on hover */
+  background-color: #000000; /* Blue background on hover */
   color: #ffffff; /* White text on hover */
 }
 
