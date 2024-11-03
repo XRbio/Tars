@@ -106,6 +106,20 @@ body {
   margin-bottom: 10px; /* Space between title and image */
 }
 
+.submenu {
+  display: none; /* Initially hide submenu */
+  padding-left: 15px; /* Indent submenu items */
+}
+
+.sidebar-parent {
+  cursor: pointer; /* Make 'Agents' look clickable */
+}
+
+.sidebar-parent:hover + .submenu,
+.submenu:hover {
+  display: block; /* Show submenu on hover */
+}
+
 #sidebar ul {
   list-style: none;
   padding: 0;
