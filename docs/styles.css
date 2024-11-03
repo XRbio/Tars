@@ -64,6 +64,22 @@ body {
   align-items: stretch; /* Stretches the children to fill the container height */
 }
 
+.get-started-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #007acc;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  background-color: #005fa3;
+}
 #sidebar {
   width: 220px;
   background: #000000; /* Black background for sidebar */
