@@ -90,6 +90,14 @@ body {
   box-shadow: 2px 0 5px rgba(255, 255, 255, 0.1); /* Lighter shadow for contrast */
   border-right: 2px solid rgba(255, 255, 255, 0.2); /* Creates a vertical line on the right */
 }
+
+.sidebar-image {
+  width: 100%; /* Make the image take up the full width of the sidebar */
+  border-radius: 8px; /* Optional: rounded corners */
+  margin-bottom: 15px; /* Space between the image and the list */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Optional: subtle shadow */
+}
+
 #sidebar ul {
   list-style: none;
   padding: 0;
