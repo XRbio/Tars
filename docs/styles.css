@@ -142,7 +142,7 @@ iframe {
 
 .image-container {
   text-align: center;
-  max-width: 70%; /* Restrict image container size */
+  max-width: 50%; /* Restrict image container size */
 }
 
 .primary-image {
@@ -153,9 +153,10 @@ iframe {
 }
 
 .image-description {
-  margin-top: 10px;
+  font-size: 1.5em; /* Larger font size */
+  font-weight: bold; /* Make it stand out */
+  margin-bottom: 15px; /* Spacing between description and image */
   color: #ffffff;
-  font-size: 1em;
 }
 
 @media (max-width: 768px) {
