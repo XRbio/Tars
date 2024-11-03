@@ -98,6 +98,14 @@ body {
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Optional: subtle shadow */
 }
 
+.sidebar-title {
+  font-size: 1 em; /* Adjust as needed */
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center; /* Center the title */
+  margin-bottom: 10px; /* Space between title and image */
+}
+
 #sidebar ul {
   list-style: none;
   padding: 0;
