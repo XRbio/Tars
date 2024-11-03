@@ -143,7 +143,7 @@ iframe {
 
 .image-container {
   text-align: center;
-  max-width: 50%; /* Restrict image container size */
+  max-width: 60%; /* Restrict image container size */
 }
 
 .primary-image {
@@ -154,7 +154,7 @@ iframe {
 }
 
 .image-description {
-  font-size: 1.5em; /* Larger font size */
+  font-size: 1.1em; /* Larger font size */
   font-weight: bold; /* Make it stand out */
   margin-bottom: 15px; /* Spacing between description and image */
   color: #ffffff;
